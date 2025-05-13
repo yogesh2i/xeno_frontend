@@ -1,12 +1,72 @@
-# React + Vite
+# Xeno Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend application for the Xeno project, built with React and Vite. It provides a user interface for managing campaigns, viewing campaign history, and other related features.
 
-Currently, two official plugins are available:
+** Checout Live here- https://xeno-frontend-vpx4.onrender.com/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+* Protected routes
+* Google OAuth implemented
+* Campaign History
+* Flexible Rule Builder
+* Preview audience size
+* Auto generated tag using AI
+* Recent campaign at top
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## Project Structure
+```
+- components
+  - src
+    - App.jsx
+    - App.scss
+    - assets/
+    - components/
+      - auth/                 #authentication based components
+        - Callback.jsx
+        - Login.jsx
+        - LoginButton.jsx
+        - ProtectedRoute.jsx
+        - Register.jsx
+      - CampaignHistory.jsx     
+      - CampaignHome.jsx
+      - RuleBuilder.jsx
+    - Context/
+      - CampaignContext.jsx       #global state management
+    - index.css
+    - main.jsx
+    - utils/
+      - fetchFunction.js          #common functions like fetching data
+
+```
+
+
+## Installation
+
+1. Clone the repository:
+```sh
+git clone https://github.com/yogesh2i/xeno_frontend.git
+cd xeno_frontend
+```
+
+2. Install dependencies:
+```sh
+npm install
+```
+
+3. Environment variables:
+```sh
+VITE_GOOGLE_CLIENT_ID= your_google_client_id
+VITE_API_BASE_URL= your_backend_url (e.g: http://localhost:5000/api)
+VITE_REDIRECT_URI= your_google_redirect_url
+```
+
+4. Start:
+```sh
+npm run dev
+```
+
+5. Open application at http://localhost:5173
+
