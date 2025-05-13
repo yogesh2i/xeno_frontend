@@ -2,7 +2,12 @@
 
 This is the frontend application for the Xeno project, built with React and Vite. It provides a user interface for managing campaigns, viewing campaign history, and other related features.
 
-** Checout Live here- https://xeno-frontend-vpx4.onrender.com/
+* Checkout Live here- https://xeno-frontend-vpx4.onrender.com/
+* For testing purpose
+* username : admin
+* password: 123
+
+* OR Login with google
 
 ## Features
 
