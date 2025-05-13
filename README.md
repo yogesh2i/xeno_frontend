@@ -79,5 +79,5 @@ npm run dev
 
 <img src="./samples/flow.png">
 <img src="./samples/rulebuilder.png">
-<img src="./samples/history.png>
+<img src="./samples/history.png">
 
