@@ -70,3 +70,9 @@ npm run dev
 
 5. Open application at http://localhost:5173
 
+## Images
+
+<img src="./samples/flow.png">
+<img src="./samples/rulebuilder.png">
+<img src="./samples/history.png>
+
